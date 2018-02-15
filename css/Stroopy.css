@@ -1,0 +1,257 @@
+@font-face {
+    font-family: VarelaRound;
+    src: url(/css/VarelaRound-Regular.ttf);
+}
+.best{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 10;
+     left: 10;
+     width: 100%;
+     height: 100px;
+     background: white;
+	 text-align: right;
+	 z-index: -1;
+}
+.mid{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: black;
+	 border-radius: 5px;
+	 line-height: 35px;
+	 
+}
+.red{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: red;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.blue{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 10;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: blue;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.green{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 10;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: green;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.yellow{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 10;
+     width: 100px;
+     height: 100px;
+	 background-color: yellow;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.purple{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 10;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: purple;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.orange{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 10;
+     left: 10;
+     width: 100px;
+     height: 100px;
+	 background-color: orange;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.pink{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 10;
+     width: 100px;
+     height: 100px;
+	 background-color: pink;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.brown{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 10;
+     bottom: 10;
+     left: 0;
+     width: 100px;
+     height: 100px;
+	 background-color: saddlebrown;
+	 border-radius: 5px;
+	 line-height: 50px;
+	 border: none;
+	 outline: 0;
+	 cursor: pointer;
+}
+.game{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 320px;
+     height: 320px;
+	 background-color: white;
+}
+.site{
+position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 320px;
+     height: 100%;
+	 background-color: white;
+	 z-index: -11;
+
+}   
+.text{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 320px;
+     height: 26%;
+     background-color: white;
+     z-index: -1;
+
+}
+.press{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 320px;
+     height: 25px;
+	 background-color: #DBDBDB;
+
+}
+
+.time{
+position: absolute;
+     margin: auto;
+     top: 10;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 320px;
+     height: 90%;
+	 background-color: white;
+	 z-index: -1;
+	 font-size: 2.25vw;
+	 
+	 
+}
+
+#overgame {
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+	 background: rgba(238, 228, 218, 0.73);
+	 z-index: 5;
+	 margin: auto;
+	 position: absolute;
+	 width: 320px;
+     height: 320px;
+	 
+}
+
+#play {
+cursor: pointer;
+position: absolute;
+margin: auto;
+width: 25%;
+height: 33px;
+background: black;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+border-radius: 3px;
+border: none;
+font-family: VarelaRound;
+font-size: 20px;
+color: white;
+outline: none;
+}
