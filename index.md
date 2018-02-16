@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <script src="/Stroopy/javascript/randomword.js"></script>
@@ -19,7 +19,7 @@
 
 <center>
 
-<font face="VarelaRound" font size="10"> 
+<font face="VarelaRound" font size="10">
 <p id="playagain"></p>
 </font>
 <p><button id="play" onclick="callClickers1()">Play</button></p>
@@ -28,7 +28,7 @@
 
 </div>
 
-<font face="VarelaRound" font size="10" style="display:inline"> 
+<font face="VarelaRound" font size="10" style="display:inline">
 <font color="blue">
 S<font color="red">t<font color="green">r<font color="yellow">o<font color="yellow">o<font color="orange">p<font color="purple">y
 </font>
@@ -41,7 +41,7 @@ S<font color="red">t<font color="green">r<font color="yellow">o<font color="yell
 </font>
 <div class="best" >
 
-<font face="VarelaRound" font size="5"> 
+<font face="VarelaRound" font size="5">
 <p>Best: <span id="bestie" style="display:inline"></span>
 </p>
 </font>
@@ -66,10 +66,10 @@ S<font color="red">t<font color="green">r<font color="yellow">o<font color="yell
 <center>
 
 <font face="VarelaRound" color="white" font size="4">
-<h4 id="instruction" style="display:inline"></h4> 
+<h4 id="instruction" style="display:inline"></h4>
 </font>
 <br>
-<font face="VarelaRound" font size="5"> <h4 id="demo" style="display:inline"></h4> 
+<font face="VarelaRound" font size="5"> <h4 id="demo" style="display:inline"></h4>
 </font>
 </br>
 <font face="VarelaRound" color="white" font size="4">
@@ -94,7 +94,7 @@ S<font color="red">t<font color="green">r<font color="yellow">o<font color="yell
 <div class="text">
 
 <p>
-<font face="VarelaRound" font size="4"> 
+<font face="VarelaRound" font size="4">
 Click the play button to play. If the middle says colour, then click on the colour of the coloured word. If it says word, click on the colour that the word says, before the time runs out.
 </font>
 </p>
@@ -151,7 +151,7 @@ function callClickers(){
 	best1();
 	document.getElementById("playagain").innerHTML = "";
 	document.getElementById("overgame").style.zIndex = "-6";
-	
+
 }
 function callClickers1(){
     clearTimeout(stop);
@@ -165,7 +165,7 @@ function callClickers1(){
 	best1();
 	document.getElementById("playagain").innerHTML = "";
 	document.getElementById("overgame").style.zIndex = "-6";
-	
+
 }
 </script>
 </html>
