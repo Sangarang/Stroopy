@@ -1,2 +1,2 @@
 # Stroopy
-A confusing colour game.
+A super confusing colour game.
