@@ -130,7 +130,7 @@ document.getElementById("bestie").innerHTML = best;
 }
 function start1(){
 best = 0;
-
+anchors.removeAll();
 document.getElementById("demo").innerHTML = "";
 document.getElementById("demo").style.color = "black";
 document.getElementById("instruction").innerHTML = "";
