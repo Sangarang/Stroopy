@@ -134,7 +134,6 @@ document.getElementById("demo").style.color = "black";
 document.getElementById("instruction").innerHTML = "";
 document.getElementById("clock").innerHTML = "";
 w = 0;
-score = 0;
 sec = 1000;
 document.getElementById("score").innerHTML = score;
 document.getElementById("bestie").innerHTML = best;
@@ -167,6 +166,8 @@ function callClickers(){
 function callClickers1(){
     clearTimeout(stop);
     w = 1;
+	score = 0;
+    document.getElementById("score").innerHTML = score;
 	sec = 1000;
 	myFunctionword();
     myFunctioncolour();
