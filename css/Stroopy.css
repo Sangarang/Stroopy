@@ -3,7 +3,7 @@
     src: url(/Stroopy/css/VarelaRound-Regular.ttf);
 }
 html{
-	overflow-y:scroll;
+	overflow-y:auto;
 }
 
 .best{
@@ -179,7 +179,7 @@ position: absolute;
      right: 0;
      bottom: 0;
      left: 0;
-     width: 320px;
+     width: 17%;
      height: 100%;
 	 background-color: white;
 	 z-index: -11;
