@@ -255,3 +255,8 @@ font-size: 20px;
 color: white;
 outline: none;
 }
+
+html{
+    zoom: 1;
+    -moz-transform: scale(1);
+}
