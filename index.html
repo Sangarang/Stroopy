@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel='shortcut icon' type='image/png' href='/Stroopy/favicon.png' />
+	      
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117509837-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-117509837-1');
+</script>
+	</head>
 <script src="/Stroopy/javascript/randomword.js"></script>
 <script src="/Stroopy/javascript/randomcolour.js"></script>
 <script src="/Stroopy/javascript/checkanswer.js"></script>
@@ -124,7 +136,6 @@ document.getElementById("demo").style.color = "black";
 document.getElementById("instruction").innerHTML = "";
 document.getElementById("clock").innerHTML = "";
 w = 0;
-score = 0;
 sec = 1000;
 document.getElementById("score").innerHTML = score;
 document.getElementById("bestie").innerHTML = best;
@@ -157,6 +168,8 @@ function callClickers(){
 function callClickers1(){
     clearTimeout(stop);
     w = 1;
+	score = 0;
+    document.getElementById("score").innerHTML = score;
 	sec = 1000;
 	myFunctionword();
     myFunctioncolour();

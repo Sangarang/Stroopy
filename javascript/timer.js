@@ -17,7 +17,7 @@ stop = setTimeout(myFunctiontimer4, sec);}
 
 function myFunctiontimer4() {
 document.getElementById("clock").innerHTML = "0";
-setTimeout(time, 1000);}
+setTimeout(time, 250);}
 
 function hard() {
 sec = sec - 0.83;

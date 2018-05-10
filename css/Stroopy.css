@@ -2,6 +2,10 @@
     font-family: VarelaRound;
     src: url(/Stroopy/css/VarelaRound-Regular.ttf);
 }
+html{
+	overflow-y:auto;
+}
+
 .best{
 position: absolute;
      margin: auto;
@@ -255,8 +259,11 @@ font-size: 20px;
 color: white;
 outline: none;
 }
+<<<<<<< HEAD
 
 html{
     zoom: 1;
     -moz-transform: scale(1);
 }
+=======
+>>>>>>> c70f470c9768b77c9a8984cab2e7e07c10d634b3
