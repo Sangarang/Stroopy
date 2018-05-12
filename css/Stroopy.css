@@ -205,28 +205,28 @@ position: absolute;
 .press{
 position: absolute;
      margin: auto;
-     top: 10;
+     top: 624px;
      right: 0;
      bottom: 0;
      left: 0;
-     width: 320px;
+     width: 100%;
      height: 25px;
-	 background-color: white;
+	 background-color: #DBDBDB;
 
 }
 
 .time{
-position: absolute;
+position: inherit;
      margin: auto;
      top: 10;
      right: 0;
      bottom: 0;
      left: 0;
      width: 320px;
-     height: 90%;
+     height: 575px;
 	 background-color: white;
 	 z-index: -1;
-	 font-size: 2.25vw;
+	 font-size: 28px;
 	 
 	 
 }
