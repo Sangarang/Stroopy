@@ -146,7 +146,9 @@ score = 0;
 sec = 1000;
 document.getElementById("score").innerHTML = score;
 document.getElementById("bestie").innerHTML = localStorage.best;
-bestchecker();
+if(localStorage.best === "undefined") {
+    localStorage.best = 0;
+}
 }
 function callClickers(){
     clearTimeout(stop);
@@ -176,11 +178,6 @@ function callClickers1(){
 	document.getElementById("playagain").innerHTML = "";
 	document.getElementById("overgame").style.zIndex = "-6";
 	
-}
-function bestchecker() {
-if(typeof(best) !== "undefined") {
-    localStorage.best = 0;
-}
 }
 </script>
 </html>
