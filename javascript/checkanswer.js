@@ -231,9 +231,10 @@ gameover();
 }
 
 function best1() {
-if(best <= score)
-best = score;
-document.getElementById("bestie").innerHTML = best;
-setTimeout(best1, 0);	
-}
+if(localStorage.best <= score)
+localStorage.best = score;
+document.getElementById("bestie").innerHTML = localStorage.best;
 setTimeout(best1, 0);
+}
+
+
