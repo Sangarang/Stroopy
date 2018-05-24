@@ -146,6 +146,7 @@ score = 0;
 sec = 1000;
 document.getElementById("score").innerHTML = score;
 document.getElementById("bestie").innerHTML = localStorage.best;
+bestchecker();
 }
 function callClickers(){
     clearTimeout(stop);
@@ -175,6 +176,11 @@ function callClickers1(){
 	document.getElementById("playagain").innerHTML = "";
 	document.getElementById("overgame").style.zIndex = "-6";
 	
+}
+function bestchecker() {
+if(typeof(Storage) !== "undefined") {
+    localStorage.clickcount = 0;
+}
 }
 </script>
 </html>
