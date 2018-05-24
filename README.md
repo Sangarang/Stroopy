@@ -19,6 +19,7 @@ Change Log:
 </u>
 </p>
 
+<p><b>May 24, 2018.</b> <br>Your best score will be kept forever even when you exit the page. Rather than it reset to zero after every session.</br>
 <p><b>May 12, 2018.</b> <br>Page will now zoom in properly, meaning the game will now work on all screen sizes.</br>
 <p><b>Nov 28, 2017.</b> <br>The game now has a best score to keep your best score since opening the page.</br>
 <p><b>Nov 27, 2017.</b> <br>Game timer will run faster as you play longer. Making the game end at one stage. Game now has a change log. See all the changes made here.</br>
